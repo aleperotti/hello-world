@@ -5,5 +5,8 @@ Modifica per test2
 Modifica per test3
 Modifica primo branch
 Modifica in branch new
+<<<<<<< HEAD
 First change
+=======
 Second change
+>>>>>>> origin/master
