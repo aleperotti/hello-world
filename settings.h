@@ -15,6 +15,7 @@ public:
     ~SettingsWdg();
     void createTrayIcon();
     void createActions();
+	const int int_var = 0;
 
 private:
     Ui::SettingsDlg *ui;
