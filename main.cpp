@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     NRParamParser pp = NRParamParser::instance();
         
     pp.acceptParam("a", "address", true);
-    pp.acceptParam("u", "username", true);
+    pp.acceptParam("b", "username", true);
     pp.acceptParam("p", "password", true);
     pp.acceptParam("i", "interval", true);
 
