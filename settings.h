@@ -16,6 +16,7 @@ public:
     void createTrayIcon();
     void createActions();
 	const int int_var = 0;
+	const int int_var_1 = 1;	
 
 private:
     Ui::SettingsDlg *ui;
