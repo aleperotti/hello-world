@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
         
     pp.acceptParam("a", "address", true);
     pp.acceptParam("b", "username", true);
-    pp.acceptParam("p", "password", true);
+    pp.acceptParam("c", "password", true);
     pp.acceptParam("i", "interval", true);
 
     bool b = pp.parse(argc,argv);
