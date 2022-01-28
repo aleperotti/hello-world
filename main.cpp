@@ -13,6 +13,8 @@ int main(int argc, char *argv[])
     pp.acceptParam("i", "interval", true);
     pp.acceptParam("h", "interval", true);    
 
+    pp.acceptParam("k", "interval", true);
+    
     bool b = pp.parse(argc,argv);
 
     if (!b) {
