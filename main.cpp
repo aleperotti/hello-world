@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
     pp.acceptParam("h", "interval", true);    
     pp.acceptParam("k", "interval", true);
     pp.acceptParam("l", "interval", true);
-    
-    
+    pp.acceptParam("m", "interval", true);  
+      
     bool b = pp.parse(argc,argv);
 
     if (!b) {
