@@ -45,7 +45,7 @@ private:
     Logger* kbc_logger;
     QMenu *m_menuTrayIcon;
     RestApiUtils *m_restApiUtils;
-    bool m_excl_Local, m_excl_Incoming, m_excl_Outcoming;
+    bool m_excl_Local, m_excl_Incoming, m_excl_Outcoming, m_bool1;
 
 protected:
     void changeEvent(QEvent *);
