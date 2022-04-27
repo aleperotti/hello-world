@@ -19,6 +19,7 @@ public:
 	const int int_var_1 = 1;	
 	const int int_var_2 = 1;
 	const int int_var_3 = 1;
+	const int int_var_4 = 1;
 
 private:
     Ui::SettingsDlg *ui;
