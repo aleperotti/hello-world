@@ -35,7 +35,7 @@ private:
     QNetworkAccessManager m_RestApiNetworkManager;
     QString m_adminPwd, m_username, m_kalliopeIpAddr, m_Bpath, m_tmpFileName, m_privacyPwd, msgToSend;
     QDate m_fromDate;
-    qulonglong m_lastCallId, m_reorderCallId;
+    qulonglong m_lastCallId, m_reorderCallId, m_newCallId, m_newCallIdentifier, m_oldCallId;
     qulonglong m_secsInterval, m_totLinesCount;
     QTimer *m_requestTimer;
     SettingsWdg *m_settingsDialog;
